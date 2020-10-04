@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="665.0" prefWidth="329.0" stylesheets="@stylesheet.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="aurora.FXMLDocumentController">
+    <children>
+      <ImageView fitHeight="669.0" fitWidth="329.0" layoutY="-2.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="file:src/aurora/img/landing.png" />
+         </image>
+      </ImageView>
+      <Button fx:id="abt2" layoutX="228.0" layoutY="613.0" onAction="#handleButtonAction" opacity="0.0" prefHeight="27.0" prefWidth="71.0" text="next" />
+    </children>
+</AnchorPane>
